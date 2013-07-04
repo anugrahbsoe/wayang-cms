@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+/* style body */
+body {
+	margin: 0;
+    background-color: #F4F4F4;
+    background-image: url(../images/transparent.png);
+    background-repeat: no-repeat;
+}
+/* font untuk body, td dan td */
+body, td, th {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+/* style link */
+a, a:visited {
+	color: #060;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+/* style form */
+form {
+	margin: 0;
+	padding: 0;
+}
+/* font input dan select */
+input, select {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+/* style text input */
+.login_inputs {
+	padding: 3px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+	width:200px;
+	height:30px;
+}
+/* style login logo */
+#logo {
+	text-align: center;
+    width: 420px;
+	margin: 0 auto;
+	padding: 5px;
+}
+/* style login box container */
+#login_container {
+	color: #333;
+ 	background: #CCC;
+  	background: -moz-linear-gradient(#fff, #CCC);
+  	background: -o-linear-gradient(#fff, #CCC);
+  	background: -webkit-linear-gradient(#fff, #CCC);
+	text-align: left;
+	width: 430px;
+	padding: 10px;
+	margin: 0 auto;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+	 -moz-border-radius: 0px 0px 7px 7px;
+  -webkit-border: 0px 0px 7px 7px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+}
+/* style box container login form */
+#login_container #login {
+	text-align: left;
+	margin: 0;
+	padding: 20px 10px 20px 10px;
+}
+/* style login message(error message)*/
+#login_container #login_msg {
+	background: #CCC;
+  	background: -moz-linear-gradient(#fff, #6F0);
+  	background: -o-linear-gradient(#fff, #6F0);
+  	background: -webkit-linear-gradient(#fff, #6F0);
+    text-align: center;
+    padding: 10px;
+    margin: 0 0 1px 0;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+/* style login extra info, footer login */
+#login_container #extra_info {
+	background-color: #D3D3D3;
+	text-align: left;
+	padding: 10px;
+	margin: 1px 0 0 0;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+/* style pesan error */
+.login_error{
+	text-align:center;
+	color:red;
+}
