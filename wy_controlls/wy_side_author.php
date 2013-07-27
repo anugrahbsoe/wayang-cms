@@ -1,5 +1,5 @@
 <?php
-$query="SELECT `post_user` FROM `wy_post`";
+$query="SELECT distinct(`post_user`) FROM `wy_post`";
 $row=$conn->query($query);
 $data=$row->num_rows;
 if(!$row=$conn->query($query)){
