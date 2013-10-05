@@ -1,4 +1,5 @@
 <?php
+//Credit ruudrp
 function getBrowser() 
 { 
     $u_agent = $_SERVER['HTTP_USER_AGENT']; 
